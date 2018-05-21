@@ -1,0 +1,1 @@
+This is another awesome feature with bind mount where the change in host file is just reflected on to the container USING -v option - ISN"T THAT COOOL!!!
