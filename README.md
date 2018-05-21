@@ -41,8 +41,8 @@ https://takacsmark.com/dockerfile-tutorial-by-example-dockerfile-best-practices-
 
 If you are really new to DOCKER:
 Docker has a very nice place to learn it:
-https://training.play-with-docker.com/
+* https://training.play-with-docker.com/
 
 Docker public registry/private:
-https://hub.docker.com/
-https://store.docker.com/
+* https://hub.docker.com/
+* https://store.docker.com/
