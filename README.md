@@ -36,8 +36,8 @@ Those system level command which won’t change much while rebuilding the image 
 And variable commands after that stays in the bottom so that we can take advantage
 
 Reference:
-https://docs.docker.com/engine/reference/builder/#impact-on-build-caching
-https://takacsmark.com/dockerfile-tutorial-by-example-dockerfile-best-practices-2018/#overview
+* https://docs.docker.com/engine/reference/builder/#impact-on-build-caching
+* https://takacsmark.com/dockerfile-tutorial-by-example-dockerfile-best-practices-2018/#overview
 
 If you are really new to DOCKER:
 Docker has a very nice place to learn it:
