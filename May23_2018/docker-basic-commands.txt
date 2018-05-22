@@ -45,6 +45,7 @@ Stop a running container through SIGKILL
 
 Create a new bash process inside the container and connect it to the terminal
     docker exec -it web bash
+    docker exec -it <CONTAINER_ID> /bin/sh OR bash
 
 Print the last 100 lines of a container’s logs
     docker logs --tail 100 web
