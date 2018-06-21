@@ -43,6 +43,6 @@ If you are really new to DOCKER:
 Docker has a very nice place to learn it:
 * https://training.play-with-docker.com/
 
-Docker public registry/private:
+Docker public/private registry:
 * https://hub.docker.com/
 * https://store.docker.com/
