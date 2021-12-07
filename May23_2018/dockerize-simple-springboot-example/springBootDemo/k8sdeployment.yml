@@ -1,0 +1,40 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spring-boot-hello-jpa-deployment
+  labels:
+    app: sbhwjpah2
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: sbhwjpah2
+  template:
+    metadata:
+      labels:
+        app: sbhwjpah2
+    spec:
+      containers:
+        - name: sbhwjpah2
+          image: gitsuren/helloworldspringbootjpah2:v1.0.0
+          ports:
+            - containerPort: 8888
+
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: spring-boot-hello-jpa-service
+spec:
+  selector:
+    app: sbhwjpah2
+  ports:
+    - protocol: "TCP"
+      # Port accessible inside cluster
+      port: 8082
+      # Port to forward to inside the pod
+      targetPort: 8180
+      # Port accessible outside cluster
+      nodePort: 30003
+  type: LoadBalancer
